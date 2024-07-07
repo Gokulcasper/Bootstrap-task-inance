@@ -35,13 +35,24 @@
 }
 .sec_2 button {
   background-color: #ff8a1d;
-  padding: 10px 40px;
+  padding: 10px 25px;
   border: 1px solid #ff8a1d;
   color: white;
   border-radius: 5px;
   font-weight: 400;
 }
 
+.sec_2 .img-fluid{
+  margin-top: 10px;
+}
+
+.sec_2 span{
+  display: inline-block;
+    width: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: 50% / 100% 100% no-repeat;
+}
 
 .sec_3 .card1 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -108,7 +119,7 @@
 
 .sec_5 {
   background-color: #d0e2fe;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
 }
@@ -311,8 +322,7 @@ height: 130px;
 }
 
 .sec_9 .item-touch{
-/* color: white;
-margin-top: 35px; */
+
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -329,6 +339,10 @@ text-align: center;
   color: white;
 }
 
+.sec_9 a{
+  position: relative;
+}
+
 .sec_9 .item-touch p{
   color: white;
   margin: 30px 0 10px 0;
@@ -339,9 +353,7 @@ text-align: center;
 }
 
 .sec_9 .img-box{
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */width: 80px;
+  width: 80px;
     height: 80px;
     border-radius: 100%;
     background-repeat: no-repeat;
@@ -351,4 +363,48 @@ text-align: center;
     background-color: #0355cc;
     color: #ffffff;
 }
-    
+
+.sec_9 .img-box:hover{
+background-color: #ff8a1d;
+color: white;
+}
+
+.sec_9 .follow h3{
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.sec_9 .follow{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec_9 .follow-box{
+  background-color: #ffffff;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+.sec_9 .follow-box a{
+color:#0355cc;
+margin: 0 5px;
+}
+
+.sec_10 {
+  background-color: #0A0F43;
+  text-align: center;
+  
+}
+
+
+.sec_10 p{
+  padding: 25px 0;
+  margin: 0 !important;
+  color: white;
+  border-top: 1px solid white;
+}
