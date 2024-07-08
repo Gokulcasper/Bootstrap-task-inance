@@ -43,28 +43,26 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-        <span class="material-symbols-outlined">
-          menu
-          </span>
+          <span class="material-symbols-outlined"> menu </span>
         </button>
         <div class="collapse navbar-collapse align-item-center" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item navbar-primary active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#HOME">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#ABOUT">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
+              <a class="nav-link" href="#SERVICE">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#CONTACT">Contact Us</a>
             </li>
           </ul>
         </div>
       </nav>
-      <div class="container">
+      <div class="container" id="HOME">
         <div class="row">
           <div class="col-md-6 m-auto">
             <h1>Repair and Maintenance Services</h1>
@@ -108,7 +106,7 @@
       </div>
     </div>
 
-    <div class="sec_4">
+    <div class="sec_4" id="ABOUT">
       <div class="container">
         <div class="row">
           <div class="col-md-6 m-auto">
@@ -155,7 +153,7 @@
       </div>
     </div>
 
-    <div class="sec_6">
+    <div class="sec_6" id="SERVICE">
       <div class="container">
         <h1>OUR SERVICE</h1>
         <div class="row">
@@ -269,17 +267,20 @@
         </div>
       </div>
     </div>
-    <div class="sec_8">
+    <div class="sec_8" id="CONTACT">
       <div class="container">
+        <form action="https://api.web3forms.com/submit"  method="POST" >
         <h1>CONTACT US</h1>
         <div class="row">
           <div class="col-md-6">
-            <div class="contact-form">
+            <div class="contact-form" >
+              <input type="hidden" name="access_key" value="d5c434c4-1226-4143-bda5-3ce34760f359">
               <input
                 type="Name"
                 name="Name"
                 placeholder="  Name  "
                 class="contact-input"
+                onfocus="this.value=''" 
                 required
               />
               <input
@@ -287,6 +288,7 @@
                 name="Phone Number"
                 placeholder="  Phone Number  "
                 class="contact-input"
+                onfocus="this.value=''" 
                 required
               />
               <input
@@ -294,6 +296,7 @@
                 name="Email"
                 placeholder="  Email  "
                 class="contact-input"
+                onfocus="this.value=''" 
                 required
               />
               <input
@@ -301,6 +304,7 @@
                 name="Message"
                 placeholder="  Message  "
                 class="contact-input contact-input-message"
+                onfocus="this.value=''" 
                 required
               />
             </div>
@@ -321,69 +325,67 @@
           </div>
         </div>
         <button class="form-button">SEND</button>
+      </form>
       </div>
     </div>
-<div class="sec_9">
-  <h2>GET IN TOUCH</h2>
-  <div class="container">
-    <!-- <div class="item-touch"> -->
-      <div class="row col-touch ">
-        <div class="col-md-4 touch-4">
-          <a href="#">
-          <div class="item-touch">
-            <div class="img-box">
-              <i class="ri-map-pin-fill rounded-circle"></i>
-            
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <div class="sec_9">
+      <h2>GET IN TOUCH</h2>
+      <div class="container">
+        <!-- <div class="item-touch"> -->
+        <div class="row col-touch">
+          <div class="col-md-4 touch-4">
+            <a href="#">
+              <div class="item-touch">
+                <div class="img-box">
+                  <i class="ri-map-pin-fill rounded-circle"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </a>
           </div>
-        </a>
+          <div class="col-md-4 touch-4">
+            <a href="#">
+              <div class="item-touch">
+                <div class="img-box">
+                  <i class="ri-phone-fill rounded-circle"></i>
+                  <!-- <hr> -->
+                </div>
+                <p>044-123456789</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 touch-4">
+            <a href="#">
+              <div class="item-touch">
+                <div class="img-box">
+                  <i class="ri-mail-fill rounded-circle"></i>
+                </div>
+                <p>gokul@gmail.com</p>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="col-md-4 touch-4">
-          <a href="#">
-          <div class="item-touch">
-            <div class="img-box">
-          <i class="ri-phone-fill rounded-circle" ></i>
-          <!-- <hr> -->
-        </div>
-          <p>044-123456789</p>
-          </div>
-        </a>
-        </div>
-        <div class="col-md-4 touch-4">
-          <a href="#">
-          <div class="item-touch">
-          <div class="img-box">
-          <i class="ri-mail-fill rounded-circle"></i>
-          </div>
-          <p>gokul@gmail.com</p>
-          </div>
-        </a>
+        <!-- </div> -->
+      </div>
+      <div class="follow">
+        <h3>FOLLOW US</h3>
+        <div class="follow-box">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
         </div>
       </div>
-    <!-- </div> -->
-  </div>
-  <div class="follow">
-    <h3>FOLLOW US</h3>
-    <div class="follow-box">
-      <a href="#"><i class="ri-facebook-fill"></i></a>
-      <a href="#"><i class="ri-twitter-fill"></i></a>
-      <a href="#"><i class="ri-youtube-fill"></i></a>
-      <a href="#"><i class="ri-instagram-fill"></i></a>
     </div>
-  </div>
-</div>
 
-<div class="sec_10">
-  
-  <div class="container">
-    <p>
-      &copy;
-      <span> 2024 All Rights Reserved By Free HTML Templets</span>
-    </p>
-  </div>
-</div>
-
+    <div class="sec_10">
+      <div class="container">
+        <p>
+          &copy;
+          <span> 2024 All Rights Reserved By Free HTML Templets</span>
+        </p>
+      </div>
+    </div>
   </body>
   <!-- Swiper-JS -->
   <script src="./js/swiper-bundle.min.js"></script>
